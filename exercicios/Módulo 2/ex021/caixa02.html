@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: whitesmoke;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 110px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: white;
+            color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.315);
+        }
+
+        section#assuntos {
+            background-color: whitesmoke;
+            text-align: justify;
+        }
+
+        article {
+            background-color: whitesmoke;
+        }
+        article > aside {
+            background-color: gray;
+        }
+
+        article > aside > p {
+            text-align: right;
+        }
+
+        footer {
+            background-color: darkgrey;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marcelo's site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esporte Política e Tecnologia</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi est labore molestiae, mollitia eius tempora iure vel pariatur corporis autem laboriosam molestias dolorem officiis optio ipsum, dolores aperiam quaerat eligendi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae animi non tempora mollitia at quae tempore assumenda! Consequuntur consectetur repellendus quibusdam inventore facilis deserunt expedita accusantium soluta incidunt commodi!</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptates! Ab aliquam accusantium voluptatibus unde, deleniti perferendis, ipsam quia ipsa nam exercitationem ratione possimus facere fugit blanditiis, excepturi ex nemo.</p>
+                <aside>
+                    <p>Artigo escrito por Marcelo Soares</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido em aula</p>
+    </footer>
+</body>
+</html>

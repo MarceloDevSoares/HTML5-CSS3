@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Alista';
+            src: url('fonts/Alista\ Script.otf') format('opentype'), url(fonts/Alista\ Script.ttf) format(trutype);
+            font-weight: normal;
+            font-style: normal;
+
+        @font-face {
+            font-family: 'Amellya';
+            src: url('fonts/Amellya.otf') format('opentype') url('fonts/Amellya.ttf') format(truetype);
+        }
+            
+            /*
+            tipos de format()
+            - opentype(Otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - tretype-aat (Apple Advanced Typography)
+            - svg
+
+            */
+            
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Alista', Times, serif;
+            font-size: 3em;
+        }
+        
+        p {
+            font-family: 'Amellya'serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam tempore natus expedita rerum? Molestiae asperiores porro illum quidem quibusdam? Odio ratione voluptatem natus animi accusantium saepe beatae error voluptatum suscipit.</p>
+</body>
+</html>
